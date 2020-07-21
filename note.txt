@@ -1,0 +1,4 @@
+Import db from db_copy folder.
+Copy the .env configuration from .env.example
+
+default admin U:admin@test.com P:12345678
