@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/', 'PageController@home')->name('home');
 
 Auth::routes();
 // Route::get('/user', 'HomeController@index')->name('user_dashboard');
